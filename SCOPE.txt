@@ -1,0 +1,46 @@
+# spring-boot-jsp-example
+Author : Jadumani Meher
+
+This is a Maven Project for Spring Boot UI Coding Exercise
+
+This Application : 
+Create a simple application with database access;
+Based on an input from the user provide the following functionality;
+
+Functional Coverage:
+Customer Operations:
+1. Add Customer (customerId, firstName, lastName, phoneNo, gender)
+2. Edit Customer (firstName, lastName, phoneNo, gender)
+3. Delete Customer (customerId)
+4. Count Number of Customers
+5. List Customers
+6. jQuery validation for inputs
+
+Address Operations:
+1. Add Address to customer [multiple required] (addressId, addressType, street, city, state, postalCode)
+2. Edit Address (addressType, street, city, state, postalCode)
+3. Delete Address (addressId)
+4. Address List
+5. jQuery validation for inputs
+
+It also Includes : 
+1. JUnit Tests
+2. Maven build (Java)
+
+JUnits : Test Coverage:
+1. Add Customer (customerId, firstName, lastName, phoneNo, gender)
+2. Edit Customer (firstName, lastName, phoneNo, gender)
+3. Delete Customer (customerId)
+4. Count Number of Customers
+
+Technical Coverage:
+1. Designed UI JSP Page using Spring for : add customer, list customer, edit customer and delete customer, add address, edit address, list address and delete address
+2. Services for above operation
+3. CRUD operations
+4. Sample Exception Handling for Add and Edit Operations
+5. Covers HTTP Client for GET and POST Services for Test Case Use
+6. Maven Build 
+
+
+Technology and Tools Used:
+Java, Spring Framework, Spring Boot, MicroService,RestService, Hibernate,  JUnit, Maven Build, SqlLocalDB/MySQL Server, JSP, JQuery, BootStrap, Spring Tool Suite 4, Soap UI, Microsoft SqlSever Management Studio/MySQL Workbench

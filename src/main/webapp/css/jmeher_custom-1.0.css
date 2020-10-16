@@ -1,0 +1,28 @@
+.form-group {
+    margin-bottom: 15px;
+    width: 70% !important;
+}
+
+@media screen and (min-width: 600px) {
+	.form-group{
+		width:90% !important;
+	}
+}
+
+i{
+	font-size: 20px !important;
+	color: #007bff;
+}
+
+.content-div{
+	border:1px solid black;
+	width: max-content;
+	padding:20px;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: .5rem;
+    width: 100%;
+}
